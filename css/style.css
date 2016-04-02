@@ -2,20 +2,25 @@
 
 body{
 	
-
+background-color: blue;
 }
 
-.header {
+#header {
 	
 
 }
 
-.main{
+#main{
 	
 
 }
 
-.footer {
+#sidebar{
+
+}
+
+#footer {
 	
 
 }
+
