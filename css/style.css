@@ -1,26 +1,131 @@
+html{
 
+	margin:0;
+	padding:0;
+	height:100%;
+
+}
 
 body{
-	
-background-color: blue;
+	margin-top: 0;
+	color: #fff;
+	background-image:url(../images/wood_tile_background.jpg);
+	height:100%;
 }
+
+
+/*---------Header-----------------------*/
 
 #header {
+
 	
+	color:#000;
+	background-color:#fff;
+	border: 1px solid #fff;
+	text-align: center
 
 }
+/*---------Navigation-----------------------*/
+
+#nav{
+
+
+
+}
+
+
+#nav li{
+
+	list-style: none;
+}
+
+#nav a{
+	background-color: #fff;
+	color:#000;
+	display:block;
+	float: left;
+	border: 1px solid #000;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	
+}
+
+#nav a:hover{
+	color: #f8b449;
+}
+
+
+/*---------Main Content-----------------------*/
 
 #main{
-	
+	color:#000;
+	float:left;
+	width:70%;
+	border: 1px solid #fff;
+	background-color:#fff;
+
+
 
 }
+
+#contact{
+
+	color:#000;
+	margin-right: 25%;
+	margin-left: 25%;
+	text-align: center
+	width:50%;
+	border: 1px solid #fff;
+	background-color:#fff;
+
+
+
+}
+
+#contact form{
+	text-align: center;
+}
+
+
+
+/*---------Sidebar-----------------------*/
+
 
 #sidebar{
+	color:#000;
+	float: right;
+	width:20%;
+	margin:0;
+	border: 1px solid #fff;
+	background-color: #fff;
 
 }
 
-#footer {
-	
 
+
+
+
+
+#footer {
+position:fixed;
+ bottom:0;
+ left:0;
+ width: 100%;
+ background-color:#000;
+}
+/*---------others-----------------------*/
+
+p.clear{
+
+	clear:both;
+	height:0;
+	margin:0;
+	padding:0;
+}
+
+
+h1,h2,h3{
+	text-align: center;
 }
 
